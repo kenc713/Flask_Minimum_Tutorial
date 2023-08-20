@@ -1,6 +1,5 @@
 # todo管理アプリケーション
-# app.pyでは、routing（どのURLでどんな処理をするのか）とDB定義を行う。
-
+# app.pyでは、ページを構成するURLを決め、各URLへのリクエストに対しどのような処理を行うのかを記述する。
 
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
