@@ -1,4 +1,4 @@
-# flask_test
+# Flask_Minimum_Tutorial
 - flaskフレームワークの最小限の知識を確認することを目的としたリポジトリ
 - 下記のページのToDoアプリのスクリプトをもとに説明している。
   - https://tech-diary.net/flask-introduction/
