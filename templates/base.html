@@ -1,0 +1,17 @@
+<!--baseとなるHTMLファイル-->
+<!--同じコードを何度も書く必要がなくなる-->
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% block head %}{% endblock %}      <!--他のhtmlファイル内に記述-->
+</head>
+
+<body>
+    {% block body %}{% endblock %}     <!--他のhtmlファイル内に記述-->
+</body>
+
+</html>
